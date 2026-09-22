@@ -1,0 +1,155 @@
+<!-- AI生成 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maple Mono NF CN — WOFF2 演示</title>
+  <link rel="stylesheet" href="../css/maple-mono-nf-cn.css" />
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #171a21;
+      --ink: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #7dd3a0;
+      --border: #2a2f3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Maple Mono NF CN", "Cascadia Code", Consolas, monospace;
+      line-height: 1.6;
+      padding: 40px 24px 80px;
+    }
+    .wrap { max-width: 920px; margin: 0 auto; }
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-size: 0.95rem;
+    }
+    .sub code {
+      color: var(--accent);
+      background: var(--panel);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      margin: 0 0 16px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .weights div {
+      margin: 10px 0;
+      border-bottom: 1px dashed var(--border);
+      padding-bottom: 10px;
+    }
+    .weights span.tag {
+      display: inline-block;
+      min-width: 4.5rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    .sample-cn {
+      font-size: 1.25rem;
+      margin: 8px 0;
+    }
+    .sample-code {
+      background: #0b0d11;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      font-size: 0.9rem;
+      color: #c3e88d;
+      margin: 0;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<p data-aigc-mark="1" style="margin:0 0 8px;font-size:10px;line-height:1.3;color:#6b6560;font-weight:400;">AI生成</p>
+
+  <div class="wrap">
+    <h1>Maple Mono NF CN</h1>
+    <p class="sub">
+      WOFF2 web font demo · 引用本地 <code>../css/maple-mono-nf-cn.css</code>
+      · 发布后可改为 jsDelivr 地址
+    </p>
+
+    <section class="card">
+      <h2>字重（Thin → ExtraBold）</h2>
+      <div class="weights">
+        <div style="font-weight:100"><span class="tag">100 Thin</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:200"><span class="tag">200 ExtraLight</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:300"><span class="tag">300 Light</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:400"><span class="tag">400 Regular</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:500"><span class="tag">500 Medium</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:600"><span class="tag">600 SemiBold</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:700"><span class="tag">700 Bold</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+        <div style="font-weight:800"><span class="tag">800 ExtraBold</span>敏捷的棕色狐狸跳过懒狗 · The quick brown fox</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>斜体 Italic</h2>
+      <p class="sample-cn" style="font-style:italic;font-weight:400">
+        中文斜体示例：编程与排版 · <em>italic 400 — const x = 42;</em>
+      </p>
+      <p class="sample-cn" style="font-style:italic;font-weight:700">
+        <strong>粗斜体 700：Maple Mono NF CN 中文等宽</strong>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>代码与连字 Ligature</h2>
+      <pre class="sample-code">const add = (a: number, b: number) => a + b;
+// => -> != === !== &lt;= >= |&gt; :: ::
+fn main() {
+    let ok = true && false || true;
+    println!("你好，Maple Mono NF CN!");
+}</pre>
+    </section>
+
+    <section class="card">
+      <h2>Nerd Font 图标</h2>
+      <p class="sample-cn">
+         folder ·  file ·  code ·  git ·  terminal ·  rocket
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>网页接入</h2>
+      <pre class="sample-code">&lt;link rel="stylesheet" href="css/maple-mono-nf-cn.css"&gt;
+&lt;style&gt;
+  body { font-family: "Maple Mono NF CN", monospace; }
+&lt;/style&gt;</pre>
+      <p class="meta" style="margin-top:12px">
+        发布到 jsDelivr 后，把 href 换成
+        <code style="color:var(--accent)">css/maple-mono-nf-cn.cdn.css</code>
+        中的 CDN 地址即可。
+      </p>
+    </section>
+  </div>
+</body>
+</html>

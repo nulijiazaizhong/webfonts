@@ -1,0 +1,25 @@
+{
+  "name": "maple-mono-nf-cn-woff2",
+  "version": "7.9.0",
+  "description": "Maple Mono NF CN slim web fonts (WOFF2, standard)",
+  "license": "OFL-1.1",
+  "files": [
+    "webfonts/MapleMono-NF-CN-Regular.woff2",
+    "webfonts/MapleMono-NF-CN-Italic.woff2",
+    "webfonts/MapleMono-NF-CN-Medium.woff2",
+    "webfonts/MapleMono-NF-CN-SemiBold.woff2",
+    "webfonts/MapleMono-NF-CN-Bold.woff2",
+    "webfonts/MapleMono-NF-CN-BoldItalic.woff2",
+    "css/maple-mono-nf-cn.css",
+    "css/maple-mono-nf-cn.cdn.css",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "keywords": [
+    "font",
+    "woff2",
+    "webfont",
+    "maple-mono-nf-cn",
+    "slim"
+  ]
+}

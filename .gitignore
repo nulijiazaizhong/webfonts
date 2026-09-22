@@ -1,0 +1,13 @@
+# 源 TTF 体积大，一般不必上传；需要完整源文件时再提交
+MapleMono-NF-CN-unhinted/*.ttf
+MapleMono-NF-CN-unhinted/*.otf
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 临时输出（正式精简包在 packages/）
+dist-slim-*/
+dist-standard/
