@@ -1,0 +1,50 @@
+# 字体配置示例（Fontsource / npm 包风格）
+# 按你们实际 schema 字段增减即可
+
+fonts:
+  - id: "maple-mono-nf-cn"
+    family: "Maple Mono NF CN"
+    role: "mono"
+    source: "fontsource"
+    variants:
+      - file: "@nulijiazaizhong/maple-mono-nf-cn-webfont/400.css"
+        weight: 400
+        style: "normal"
+      - file: "@nulijiazaizhong/maple-mono-nf-cn-webfont/400-italic.css"
+        weight: 400
+        style: "italic"
+      - file: "@nulijiazaizhong/maple-mono-nf-cn-webfont/500.css"
+        weight: 500
+        style: "normal"
+      - file: "@nulijiazaizhong/maple-mono-nf-cn-webfont/600.css"
+        weight: 600
+        style: "normal"
+      - file: "@nulijiazaizhong/maple-mono-nf-cn-webfont/700.css"
+        weight: 700
+        style: "normal"
+      - file: "@nulijiazaizhong/maple-mono-nf-cn-webfont/700-italic.css"
+        weight: 700
+        style: "italic"
+    fallback:
+      - "ui-monospace"
+      - "monospace"
+    display: "swap"
+    preload: false
+
+  # 与你给的示例同款写法（LXGW）
+  - id: "lxgw-wenkai-cjk"
+    family: "LXGW WenKai"
+    role: "cjk"
+    source: "fontsource"
+    variants:
+      - file: "@nulijiazaizhong/lxgw-wenkai-webfont/400.css"
+        weight: 400
+        style: "normal"
+      - file: "@nulijiazaizhong/lxgw-wenkai-webfont/500.css"
+        weight: 500
+        style: "normal"
+    fallback:
+      - "system-ui"
+      - "sans-serif"
+    display: "swap"
+    preload: false

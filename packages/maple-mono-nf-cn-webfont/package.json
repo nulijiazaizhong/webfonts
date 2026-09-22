@@ -1,0 +1,28 @@
+{
+  "name": "@nulijiazaizhong/maple-mono-nf-cn-webfont",
+  "version": "7.9.0",
+  "description": "Maple Mono NF CN webfont (WOFF2, fontsource-style per-weight CSS)",
+  "license": "OFL-1.1",
+  "author": "nulijiazaizhong",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "400.css",
+    "400-italic.css",
+    "500.css",
+    "600.css",
+    "700.css",
+    "700-italic.css",
+    "files/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "font",
+    "woff2",
+    "webfont",
+    "maple-mono",
+    "maple-mono-nf-cn"
+  ]
+}

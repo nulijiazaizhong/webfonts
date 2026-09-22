@@ -1,5 +1,5 @@
 {
-  "name": "maple-mono-nf-cn-woff2",
+  "name": "@nulijiazaizhong/maple-mono-nf-cn-woff2",
   "version": "7.9.0",
   "description": "Maple Mono NF CN slim web fonts (WOFF2, standard)",
   "license": "OFL-1.1",
@@ -21,5 +21,8 @@
     "webfont",
     "maple-mono-nf-cn",
     "slim"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
